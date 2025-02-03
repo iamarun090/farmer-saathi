@@ -1,4 +1,4 @@
-# Agriculture Portal
+# Farmer Saathi
 
 - Agriculture Portal is a machine learning-based project designed to provide predictions and recommendations for farmers. The system uses different algorithms to predict crops, recommend fertilizers, and provide rainfall and yield predictions to help farmers make informed decisions about their crops.
 - IT also has direct crop sales to customer with real payment interface using Stripe API.
@@ -167,5 +167,4 @@ The Crop Management System dataset includes the following features:
 - Rainfall Prediction: Input `Subdivision` and `Year` to get rainfall prediction for that year.
 - Yield Prediction: Input `State_Name`, `District_Name`, `Crop_Year`, `Season`, `Crop`, `Area`, `Production` to get predicted yields for that crop and location.
 
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
