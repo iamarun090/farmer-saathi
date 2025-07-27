@@ -1,3 +1,23 @@
-numpy>=1.23.2, <2
-pandas==2.2.3
-matplotlib==3.8.0
+# PHP Project Requirements for Farmer Saathi Portal
+
+PHP Version: >= 7.4
+Web Server: Apache (XAMPP recommended)
+Database: MySQL
+
+Required PHP Extensions:
+- mysqli
+- openssl
+- mbstring
+
+Libraries:
+- PHPMailer (included in /smtp folder)
+
+Configuration:
+- Enable SMTP on Gmail (App Password required)
+- Update credentials in /farmer/fsendotp.php and /sql.php
+
+How to Run Locally:
+1. Install XAMPP and start Apache & MySQL
+2. Import database.sql into phpMyAdmin
+3. Place project in C:/xampp/htdocs/agriculture-portal/
+4. Access via http://localhost/agriculture-portal/
